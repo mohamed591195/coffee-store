@@ -8,7 +8,7 @@ TYPES = (
 )
 
 
-class CoffeMachine(Document):
+class CoffeeMachine(Document):
 
     CLASSIFICATION_TYPES = (
         ('BAS', 'Base'),

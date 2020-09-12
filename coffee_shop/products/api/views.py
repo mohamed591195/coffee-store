@@ -2,12 +2,12 @@ from django.http import JsonResponse
 from rest_framework_mongoengine.viewsets import ModelViewSet
 from rest_framework.response import Response
 from .serializers import CoffeePodSerializer, CoffeeMachineSerializer
-from products.documents import CoffeePod, CoffeMachine
+from products.documents import CoffeePod, CoffeeMachine
 
 class CoffeeMachineViewSet(ModelViewSet):
 
     serializer_class = CoffeeMachineSerializer
-    queryset = CoffeMachine.objects
+    queryset = CoffeeMachine.objects
     
     def list(self, request, *args, **kwargs):
         queryset = self.get_queryset()
@@ -50,7 +50,7 @@ class CoffeePodViewSet(ModelViewSet):
 
         if params:
             query = {}
-            
+
             if  type_:
                 query['type_'] = type_
 

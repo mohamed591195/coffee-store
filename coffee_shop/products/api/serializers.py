@@ -1,10 +1,10 @@
 from rest_framework_mongoengine import serializers
-from products.documents import CoffeMachine, CoffeePod
+from products.documents import CoffeeMachine, CoffeePod
 
 class CoffeeMachineSerializer(serializers.DocumentSerializer):
 
     class Meta:
-        model = CoffeMachine
+        model = CoffeeMachine
         fields = '__all__'
 
     
