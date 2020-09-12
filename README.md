@@ -2,11 +2,11 @@
 
 #### to run the project you will need 
 
-* mongo server locally on yourmachine 
+* mongo server locally on your machine 
 * pipenv installed 
 * install the requirements from Pipfile and Pipfile.lock
 
-#### to populate the database quickly --> there is a file called *setup.py* just run it.
+#### to populate the database quickly => there is a file called *setup.py* just run it.
 
 #### for urls and paths
 
@@ -16,4 +16,4 @@ for coffee machines list
 for coffee pods list
 > localhost:8000/cp/?param1=val&param2=val..
 
-also there is paths for details but using ids but not tested yes
+also there is paths for details using ids but not tested yet
