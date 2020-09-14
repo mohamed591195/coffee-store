@@ -11,9 +11,18 @@
 #### for urls and paths
 
 for coffee machines list
-> localhost:8000/cm/?param1=val&param2=val..
+> localhost:8000/cm/?param1=val&param2=val...
+##### available parameters :
+  * *type_* : LRG, SML, ESP
+  * *wl* : yes, no
+
 
 for coffee pods list
-> localhost:8000/cp/?param1=val&param2=val..
+> localhost:8000/cp/?param1=val&param2=val...
+##### available parameters :
+  * *type_* : LRG, SML, ESP
+  * *flavor* : VAN, CAR, PSL, MOC, HAZ
+  * *size* : 1, 2, 3, ...
+
 
 also there is paths for details using ids but not tested yet
